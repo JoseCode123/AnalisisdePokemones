@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Cargar los datos
-pokemon = pd.read_csv("/Users/joseg/Desktop/pokemon.csv")
+pokemon = pd.read_csv("/Users/joseg/Desktop/pokemon.csv")# cambia por la ruta por la de tu archivo csv
 
 # Verificar nombres de columnas
 print(pokemon.columns)
